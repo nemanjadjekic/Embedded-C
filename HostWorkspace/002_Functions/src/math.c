@@ -29,5 +29,5 @@ long long int mul(int a, int b)
 
 float div(int a, int b)
 {
-	return (float)a / b;
+    return ((float)a) / (float)b;
 }

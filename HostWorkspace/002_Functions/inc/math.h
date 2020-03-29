@@ -8,9 +8,6 @@
 #ifndef INC_MATH_H_
 #define INC_MATH_H_
 
-/**
- * addition, subtraction, multiplication and division of integers
- */
 int sum(int a, int b);
 int sub(int a, int b);
 long long int mul(int a, int b);
