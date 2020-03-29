@@ -1,5 +1,5 @@
 # Embedded-C
-Lab assignments from Udemy course Embedded-C
+Lab assignments from Udemy course [Embedded-C](https://www.udemy.com/share/1026SeBkcacF1XR3o=/)
 
 #### *Setup installation - Linux Mint 19.3*
 
