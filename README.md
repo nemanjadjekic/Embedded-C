@@ -41,9 +41,7 @@ Lab assignments from Udemy course Embedded-C
   * Setup `GitFiend` and connect it with your repository
 
 &nbsp;
-#### *Setting up SWV ITM Data Console*
-
-&nbsp;
+### *Setting up SWV ITM Data Console*
 
 Open *syscalls.c* file and paste following code bellow *Includes*
 
