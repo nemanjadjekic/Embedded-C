@@ -24,7 +24,7 @@ Lab assignments from Udemy course Embedded-C
 
 * ##### Installing GIT
   * Install Git using apt-get:
-   `$ sudo apt-get update'
+   `$ sudo apt-get update`
    `$ sudo apt-get install git`
    &nbsp;
    
