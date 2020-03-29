@@ -18,7 +18,7 @@ Lab assignments from Udemy course Embedded-C
     * `sudo bash script-name-here.sh`
 
 * ##### *FPU* warning fix
-Right click on the project -> properties -> expand C/C++ build -> Settings -> Tool settings -> MCU settings
+    Right click on the project -> properties -> expand C/C++ build -> Settings -> Tool settings -> MCU settings
   * `Floating-point unit: None`
   * `Floating-point ABI: Software implementation ( -mfloat-abi=soft )`
 
