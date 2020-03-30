@@ -34,7 +34,10 @@ int main(void)
 				scanf(" %f", &b_base);
 				printf("Please enter height (h) value: ");
 				scanf(" %f", &height);
-				printf("\nArea of triangle is %0.2f\n", b_base * height/2);
+				if(b_base < 0 || height < 0)
+					printf("\nEntered values aren't correct! Please try again!\n");
+				else
+					printf("\nArea of triangle is %0.2f\n", b_base * height/2);
 				break;
 
 			case 'z':
@@ -45,21 +48,30 @@ int main(void)
 				scanf(" %f", &b_base);
 				printf("Please enter height (h) value: ");
 				scanf(" %f", &height);
-				printf("\nArea of trapezoid is %0.2f\n",(a_base + b_base) * height/2);
+				if(a_base < 0 || b_base < 0 || height < 0)
+					printf("\nEntered values aren't correct! Please try again!\n");
+				else
+					printf("\nArea of trapezoid is %0.2f\n",(a_base + b_base) * height/2);
 				break;
 
 			case 'c':
 				printf("\nCircle selected!\n");
 				printf("Please enter radius: ");
 				scanf(" %f", &radius);
-				printf("\nArea of circle is %0.2f\n", radius * radius * PI);
+				if(radius < 0)
+					printf("\nEntered value isn't correct! Please try again!\n");
+				else
+					printf("\nArea of circle is %0.2f\n", radius * radius * PI);
 				break;
 
 			case 's':
 				printf("\nSquare selected!\n");
 				printf("Please enter base (a) value: ");
 				scanf(" %f", &a_base);
-				printf("\nArea of square is %0.2lf\n",a_base * a_base);
+				if(a_base < 0)
+					printf("\nEntered value isn't correct! Please try again!\n");
+				else
+					printf("\nArea of square is %0.2lf\n",a_base * a_base);
 				break;
 
 			case 'r':
@@ -68,7 +80,10 @@ int main(void)
 				scanf(" %f", &a_base);
 				printf("Please enter base (b) value: ");
 				scanf(" %f", &b_base);
-				printf("\nArea of rectangle is %0.2lf\n",a_base * b_base);
+				if(a_base < 0 || b_base < 0)
+					printf("\nEntered values aren't correct! Please try again!\n");
+				else
+					printf("\nArea of rectangle is %0.2lf\n",a_base * b_base);
 				break;
 
 			case 'q':
