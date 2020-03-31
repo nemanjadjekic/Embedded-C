@@ -1,5 +1,5 @@
 # Embedded-C
-Lab assignments from Udemy course [Embedded-C](https://www.udemy.com/share/1026SeBkcacF1XR3o=/)
+Lab assignments from Udemy course [Embedded-C](https://www.udemy.com/share/1026SeBkcacF1XR3o=/). Contains source coude for all exercises done during course, tested and adjusted for [Nucleo-F446RE](https://www.st.com/en/evaluation-tools/nucleo-f446re.html) board.
 
 #### *Setup installation - Linux Mint 19.3*
 
