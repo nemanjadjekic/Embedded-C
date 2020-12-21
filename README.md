@@ -4,7 +4,7 @@ Lab assignments from Udemy course [Embedded-C](https://www.udemy.com/share/1026S
 #### *Setup installation - Linux Mint 19.3*
 
 * ##### GCC Toolchain installation (v7.5.0)
-  * `$ gcc -v     // check C compiler is installed or not` 
+  * `$ gcc -v     // check if C compiler is installed or not` 
    &nbsp;
    
   * Open terminal and type following command to install GCC\
